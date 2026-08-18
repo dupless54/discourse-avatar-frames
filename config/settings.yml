@@ -3,6 +3,6 @@ plugins:
     default: true
     client: true
   avatar_frames_config:
-    default: "dream-dive-stars:Dream Dive Stars:tl0|head-in-the-clouds-sunset:Head in the Clouds:tl0|sakura-pink:Sakura Pink:tl0|chromawave:Chromawave:tl0|bubble:Bubble:tl0|terrarium:Terrarium:tl0"
+    default: "dream-dive-stars:Dream Dive Stars:tl0|head-in-the-clouds-sunset:Head in the Clouds:tl0|sakura-pink:Sakura Pink:tl0|chromawave:Chromawave:tl0|bubble:Bubble:tl0|terrarium:Terrarium:tl0|angel-white:Angel White:tl0|animal-pln:Animal Plan:tl0|animated:Animated Frame:tl0|askik:Aşkık:tl0|bisiklet-isiklari:Bisiklet Işıkları:tl0|butterfly-red:Butterfly Red:tl0|butterflydark:Butterfly Dark:tl0|cool-vib:Cool Vibes:tl0|dusunceli-gecit:Düşünceli Geçit:tl0|encom:Encom:tl0|fire-panic:Fire Panic:tl0|fire-ring:Fire Ring:tl0|ghost-blue:Ghost Blue:tl0|ghost-horror:Ghost Horror:tl0|haduket:Haduket:tl0|hologram-dragon:Hologram Dragon:tl0|katana-anim:Katana Anim:tl0|kento-nanami:Kento Nanami:tl0|koruma-kalkani:Koruma Kalkanı:tl0|megumi-fushiguro:Megumi Fushiguro:tl0|ogrende-gel:Öğren de Gel:tl0|orange-moon:Orange Moon:tl0|purp-ring:Purple Ring:tl0|ring-opak:Ring Opak:tl0|sakura-love:Sakura Love:tl0|satorunun-sonsuz:Satoru'nun Sonsuzu:tl0|shaitan-wing:Shaitan Wing:tl0|shark:Shark:tl0|siyah-kapson:Siyah Kapşon:tl0|siyah-mana:Siyah Mana:tl0|slime-green:Slime Green:tl0|suguro-geto:Suguro Geto:tl0|tomura-shigaraki:Tomura Shigaraki:tl0|white-smk:White Smoke:tl0|xp-monitor:XP Monitor:tl0|yesil-yapraklar:Yeşil Yapraklar:tl0"
     type: list
     client: true
