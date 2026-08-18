@@ -72,7 +72,43 @@
   &.frame-sakura-pink,
   &.frame-chromawave,
   &.frame-bubble,
-  &.frame-terrarium {
+  &.frame-terrarium,
+  &.frame-angel-white,
+  &.frame-animal-pln,
+  &.frame-animated,
+  &.frame-askik,
+  &.frame-bisiklet-isiklari,
+  &.frame-butterfly-red,
+  &.frame-butterflydark,
+  &.frame-cool-vib,
+  &.frame-dusunceli-gecit,
+  &.frame-encom,
+  &.frame-fire-panic,
+  &.frame-fire-ring,
+  &.frame-ghost-blue,
+  &.frame-ghost-horror,
+  &.frame-haduket,
+  &.frame-hologram-dragon,
+  &.frame-katana-anim,
+  &.frame-kento-nanami,
+  &.frame-koruma-kalkani,
+  &.frame-megumi-fushiguro,
+  &.frame-ogrende-gel,
+  &.frame-orange-moon,
+  &.frame-purp-ring,
+  &.frame-ring-opak,
+  &.frame-sakura-love,
+  &.frame-satorunun-sonsuz,
+  &.frame-shaitan-wing,
+  &.frame-shark,
+  &.frame-siyah-kapson,
+  &.frame-siyah-mana,
+  &.frame-slime-green,
+  &.frame-suguro-geto,
+  &.frame-tomura-shigaraki,
+  &.frame-white-smk,
+  &.frame-xp-monitor,
+  &.frame-yesil-yapraklar {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -84,28 +120,173 @@
     box-shadow: none !important;
   }
 
+  /* --- TÜM ÇERÇEVE GÖRSEL BAĞLANTILARI --- */
   &.frame-dream-dive-stars {
-    background-image: absolute-image-url("/plugins/discourse-avatar-frames/images/dream-dive-stars.png");
+    background-image: absolute-image-url("/plugins/discourse-avatar-decorations/images/dream-dive-stars.png");
   }
 
   &.frame-head-in-the-clouds-sunset {
-    background-image: absolute-image-url("/plugins/discourse-avatar-frames/images/head-in-the-clouds-sunset.png");
+    background-image: absolute-image-url("/plugins/discourse-avatar-decorations/images/head-in-the-clouds-sunset.png");
   }
 
   &.frame-sakura-pink {
-    background-image: absolute-image-url("/plugins/discourse-avatar-frames/images/sakura-pink.png");
+    background-image: absolute-image-url("/plugins/discourse-avatar-decorations/images/sakura-pink.png");
   }
 
   &.frame-chromawave {
-    background-image: absolute-image-url("/plugins/discourse-avatar-frames/images/chromawave.png");
+    background-image: absolute-image-url("/plugins/discourse-avatar-decorations/images/chromawave.png");
   }
 
   &.frame-bubble {
-    background-image: absolute-image-url("/plugins/discourse-avatar-frames/images/bubble.png");
+    background-image: absolute-image-url("/plugins/discourse-avatar-decorations/images/bubble.png");
   }
 
   &.frame-terrarium {
-    background-image: absolute-image-url("/plugins/discourse-avatar-frames/images/terrarium.png");
+    background-image: absolute-image-url("/plugins/discourse-avatar-decorations/images/terrarium.png");
+  }
+
+  &.frame-angel-white {
+    background-image: absolute-image-url("/plugins/discourse-avatar-decorations/images/angel-white.png");
+  }
+
+  &.frame-animal-pln {
+    background-image: absolute-image-url("/plugins/discourse-avatar-decorations/images/animal-pln.png");
+  }
+
+  &.frame-animated {
+    background-image: absolute-image-url("/plugins/discourse-avatar-decorations/images/animated.png");
+  }
+
+  &.frame-askik {
+    background-image: absolute-image-url("/plugins/discourse-avatar-decorations/images/askik.png");
+  }
+
+  &.frame-bisiklet-isiklari {
+    background-image: absolute-image-url("/plugins/discourse-avatar-decorations/images/bisiklet-isiklari.png");
+  }
+
+  &.frame-butterfly-red {
+    background-image: absolute-image-url("/plugins/discourse-avatar-decorations/images/butterfly-red.png");
+  }
+
+  &.frame-butterflydark {
+    background-image: absolute-image-url("/plugins/discourse-avatar-decorations/images/butterflydark.png");
+  }
+
+  &.frame-cool-vib {
+    background-image: absolute-image-url("/plugins/discourse-avatar-decorations/images/cool-vib.png");
+  }
+
+  &.frame-dusunceli-gecit {
+    background-image: absolute-image-url("/plugins/discourse-avatar-decorations/images/dusunceli-gecit.png");
+  }
+
+  &.frame-encom {
+    background-image: absolute-image-url("/plugins/discourse-avatar-decorations/images/encom.png");
+  }
+
+  &.frame-fire-panic {
+    background-image: absolute-image-url("/plugins/discourse-avatar-decorations/images/fire-panic.png");
+  }
+
+  &.frame-fire-ring {
+    background-image: absolute-image-url("/plugins/discourse-avatar-decorations/images/fire-ring.png");
+  }
+
+  &.frame-ghost-blue {
+    background-image: absolute-image-url("/plugins/discourse-avatar-decorations/images/ghost-blue.png");
+  }
+
+  &.frame-ghost-horror {
+    background-image: absolute-image-url("/plugins/discourse-avatar-decorations/images/ghost-horror.png");
+  }
+
+  &.frame-haduket {
+    background-image: absolute-image-url("/plugins/discourse-avatar-decorations/images/haduket.png");
+  }
+
+  &.frame-hologram-dragon {
+    background-image: absolute-image-url("/plugins/discourse-avatar-decorations/images/hologram-dragon.png");
+  }
+
+  &.frame-katana-anim {
+    background-image: absolute-image-url("/plugins/discourse-avatar-decorations/images/katana-anim.png");
+  }
+
+  &.frame-kento-nanami {
+    background-image: absolute-image-url("/plugins/discourse-avatar-decorations/images/kento-nanami.png");
+  }
+
+  &.frame-koruma-kalkani {
+    background-image: absolute-image-url("/plugins/discourse-avatar-decorations/images/koruma-kalkani.png");
+  }
+
+  &.frame-megumi-fushiguro {
+    background-image: absolute-image-url("/plugins/discourse-avatar-decorations/images/megumi-fushiguro.png");
+  }
+
+  &.frame-ogrende-gel {
+    background-image: absolute-image-url("/plugins/discourse-avatar-decorations/images/ogrende-gel.png");
+  }
+
+  &.frame-orange-moon {
+    background-image: absolute-image-url("/plugins/discourse-avatar-decorations/images/orange-moon.png");
+  }
+
+  &.frame-purp-ring {
+    background-image: absolute-image-url("/plugins/discourse-avatar-decorations/images/purp-ring.png");
+  }
+
+  &.frame-ring-opak {
+    background-image: absolute-image-url("/plugins/discourse-avatar-decorations/images/ring-opak.png");
+  }
+
+  &.frame-sakura-love {
+    background-image: absolute-image-url("/plugins/discourse-avatar-decorations/images/sakura-love.png");
+  }
+
+  &.frame-satorunun-sonsuz {
+    background-image: absolute-image-url("/plugins/discourse-avatar-decorations/images/satorunun-sonsuz.png");
+  }
+
+  &.frame-shaitan-wing {
+    background-image: absolute-image-url("/plugins/discourse-avatar-decorations/images/shaitan-wing.png");
+  }
+
+  &.frame-shark {
+    background-image: absolute-image-url("/plugins/discourse-avatar-decorations/images/shark.png");
+  }
+
+  &.frame-siyah-kapson {
+    background-image: absolute-image-url("/plugins/discourse-avatar-decorations/images/siyah-kapson.png");
+  }
+
+  &.frame-siyah-mana {
+    background-image: absolute-image-url("/plugins/discourse-avatar-decorations/images/siyah-mana.png");
+  }
+
+  &.frame-slime-green {
+    background-image: absolute-image-url("/plugins/discourse-avatar-decorations/images/slime-green.png");
+  }
+
+  &.frame-suguro-geto {
+    background-image: absolute-image-url("/plugins/discourse-avatar-decorations/images/suguro-geto.png");
+  }
+
+  &.frame-tomura-shigaraki {
+    background-image: absolute-image-url("/plugins/discourse-avatar-decorations/images/tomura-shigaraki.png");
+  }
+
+  &.frame-white-smk {
+    background-image: absolute-image-url("/plugins/discourse-avatar-decorations/images/white-smk.png");
+  }
+
+  &.frame-xp-monitor {
+    background-image: absolute-image-url("/plugins/discourse-avatar-decorations/images/xp-monitor.png");
+  }
+
+  &.frame-yesil-yapraklar {
+    background-image: absolute-image-url("/plugins/discourse-avatar-decorations/images/yesil-yapraklar.png");
   }
 }
 
