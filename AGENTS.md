@@ -8,6 +8,9 @@ Current source/tests > `docs/ai/CURRENT_STATE.md` > nearest local `AGENTS.md` > 
 - shipped frame images -> `public/AGENTS.md`
 Use the minimal three-file work packet only for genuine multi-session work.
 
+## Fast task path
+For non-trivial work, use `.agents/skills/task-packet/SKILL.md` before broad reads. Use `docs/ai/REPO_MAP.md` to locate code/assets, `COMMANDS.md` only for validation, and `DECISIONS.md` only for eligibility/config/extension choices. Skip the formal packet for trivial one-file edits.
+
 ## Product/security invariants
 This plugin lets users select public avatar-frame custom-field values, with server-side eligibility based on configured trust-level/group conditions.
 
@@ -26,4 +29,4 @@ Use current Discourse APIs verified from source, smallest scoped changes, and se
 
 Stop for unresolved permission model, config migration, security, or product decisions. Preserve unrelated work and `.claude/settings.local.json`; no force-push/reset/clean/branch deletion/deploy/destructive production actions. Remote writes only when explicitly authorized. Prefer targeted reads/diffs.
 
-Task procedures live under `.agents/skills/` and load on demand.
+Task procedures live under `.agents/skills/` and load on demand; use `task-packet` for non-trivial work.
