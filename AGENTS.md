@@ -35,7 +35,8 @@ Claude/Gemini/Codex reviewer or verifier approval is not required and must never
 For a normal scoped PR, the merge gate is CI only:
 - validate exact changed paths still match the task;
 - use only the latest exact PR head SHA;
-- require the repository's official required Discourse CI workflow/checks on that exact head to conclude GREEN;
+- require the official `Discourse Plugin` CI workflow on that exact head to conclude GREEN;
+- the base branch must keep `.github/workflows/discourse-plugin.yml` using the official Discourse reusable workflow;
 - a new commit invalidates all older CI evidence;
 - `NO_CI`, missing, skipped, pending, cancelled, neutral, stale-head, or failed checks are not GREEN.
 
