@@ -27,7 +27,19 @@ This plugin lets users select public avatar-frame custom-field values, with serv
 ## Implementation/tests/safety
 Use current Discourse APIs verified from source, smallest scoped changes, and server-authoritative validation. Test allowed/denied/unknown frame paths and relevant trust/group boundaries when behavior changes. Never claim unrun tests passed; use static/source validation when no suite exists.
 
-Stop for unresolved permission model, config migration, security, or product decisions. Preserve unrelated work and `.claude/settings.local.json`; no force-push/reset/clean/branch deletion/deploy/destructive production actions. Remote writes only when explicitly authorized. Prefer targeted reads/diffs.
+Stop for unresolved permission model, config migration, security, or product decisions. Preserve unrelated work and `.claude/settings.local.json`; no force-push/reset/clean/branch deletion/deploy/destructive production actions. Prefer targeted reads/diffs.
+
+## CI-only merge gate
+Claude/Gemini/Codex reviewer or verifier approval is not required and must never block merge. Do not request or wait for AI approvals as a merge condition.
+
+For a normal scoped PR, the merge gate is CI only:
+- validate exact changed paths still match the task;
+- use only the latest exact PR head SHA;
+- require the repository's official required Discourse CI workflow/checks on that exact head to conclude GREEN;
+- a new commit invalidates all older CI evidence;
+- `NO_CI`, missing, skipped, pending, cancelled, neutral, stale-head, or failed checks are not GREEN.
+
+When the latest exact head is GREEN and no unresolved security/schema/product/architecture blocker remains, the agent is pre-authorized to merge without another user confirmation. Prefer squash merge with `expected_head_sha` when supported. Never weaken tests or broaden scope just to obtain GREEN.
 
 Task procedures live under `.agents/skills/` and load on demand; use `task-packet` for non-trivial work.
 
