@@ -20,7 +20,7 @@ This plugin lets users select public avatar-frame custom-field values, with serv
 - The public custom field should expose only the selected frame identifier/presentation state, not internal authorization data.
 - Changes to the settings parser/config format must preserve existing installations or include an explicit migration/compatibility plan.
 - Avoid raw HTML/CSS/URL injection from frame IDs/config values.
-- Current code uses older patterns such as `User.class_eval`; when touching that area verify current supported Discourse extension APIs and migrate only if the task actually requires it.
+- Current validation extension uses `ActiveSupport::Concern` with `reloadable_patch` + `prepend`; preserve this supported Discourse extension pattern unless current official APIs require a change.
 - User-visible validation messages should follow current Discourse localization conventions when changed.
 - Large media tree: inspect only exact assets needed by the task; do not bulk process for context.
 
